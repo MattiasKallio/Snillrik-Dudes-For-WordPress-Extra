@@ -66,6 +66,7 @@ And then some css, that can be placed in your css or customizer. (it might not s
     width: calc(100% - 40px);
     height: calc(100% - 40px);
     margin: 20px;
+    box-shadow: 0px 0px 7px #00000042 inset;
 }
 
 .my-dude-image img {
