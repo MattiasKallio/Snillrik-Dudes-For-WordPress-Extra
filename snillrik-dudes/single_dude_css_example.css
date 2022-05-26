@@ -1,0 +1,59 @@
+/* For the single dude, that has everything. */
+
+.snillrik-dude-main.badass-superedit-of-dudepage {
+    background: linear-gradient( 354deg, rgba(0, 0, 0, 1) 0%, rgba(1, 65, 88, 1) 35%, rgba(0, 0, 0, 1) 100%);
+    padding: 40px 20px;
+    color: white;
+}
+
+.snillrik-dude-main.badass-superedit-of-dudepage h1 {
+    color: #002532;
+    text-shadow: 0 0 5px #12b4e9;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 50px;
+    border-bottom: 1px solid #1f3e48;
+}
+
+.snillrik-dude-main.badass-superedit-of-dudepage .snillrik-dude-left {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.snillrik-dude-main.badass-superedit-of-dudepage .snillrik-dude-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.badass-superedit-of-contact {
+    font-size: 23px;
+}
+
+.badass-superedit-of-contact span {
+    display: inline-block;
+    background-color: #ffffff1a;
+    padding: 2px 15px;
+    margin-bottom: 3px;
+    width: 100%;
+    border-radius: 20px 0 0 7px;
+}
+
+.snillrik-dude-main.badass-superedit-of-dudepage .custom-contact-social {
+    text-align: right;
+}
+
+.snillrik-dude-main.badass-superedit-of-dudepage .custom-contact-social a {
+    margin-right: 5px;
+}
+
+.snillrik-dude-main.badass-superedit-of-dudepage .badass-superedit-information {
+    font-family: cursive;
+    text-align: center;
+    font-weight: 100;
+    margin-top: 12px;
+    color: #ffffff45;
+    text-shadow: 0px 0px 5px #0000006e;
+}
