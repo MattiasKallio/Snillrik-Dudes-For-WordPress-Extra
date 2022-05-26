@@ -1,4 +1,3 @@
-![Snillrik logo](https://snillrik.com/wp-content/uploads/2021/08/snillrik_small.png)
 ![Dudes logo](https://snillrik.com/wp-content/uploads/2022/01/logo_clean-300x67.png)
 
 # Snillrik Dudes Extra
