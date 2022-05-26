@@ -1,3 +1,6 @@
+![Snillrik logo](https://snillrik.com/wp-content/uploads/2021/08/snillrik_small.png)
+![Dudes logo](https://snillrik.com/wp-content/uploads/2022/01/logo_clean-300x67.png)
+
 # Snillrik Dudes Extra
 My fancy plugin Snillrik Dudes is for adding and displaying people, coworkers, team, members etc on your page. You can read more about how it works below. 
 The pluign is intended to be extended, so this is for adding extra ways to display the dudes. Maybe you have a design and want's to use that instead of the default ones. 
