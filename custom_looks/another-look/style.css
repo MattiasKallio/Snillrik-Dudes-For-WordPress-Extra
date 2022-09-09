@@ -1,0 +1,36 @@
+.sndude-dude-wrap-another-look .sndude-dude-box-jobtitle-inner {
+    margin: auto;
+    margin-top: -80px;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    /* padding-top: 40px; */
+    background: #ffffffb8;
+    border-radius: 50%;
+    border: 3px dotted #00000033;
+    color: #540808;
+    vertical-align: middle;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.sndude-dude-wrap-another-look .sndude-dude-box-title {
+    font-size: 100%;
+    /* display: block; */
+    text-transform: uppercase;
+    font-weight: bold;
+    /* text-decoration: underline; */
+    padding: 20px 0;
+    /* border-left: 10px solid #550080; */
+    background: #f1f1f1;
+    min-height: 56px;
+    vertical-align: middle;
+}
+
+.sndude-dude-wrap-another-look .sndude-dude-box4 {
+    background: #f3f3f3;
+    padding: 10px;
+    border: 1px solid #c7c7c7;
+    border-radius: 10px;
+}
