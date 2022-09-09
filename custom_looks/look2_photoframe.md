@@ -6,13 +6,13 @@ Classic photoframe with only the name of the Dude.
 First the part in functions.php, or where ever you place your php code. 
 
 ```
-add_filter("format_look_add_option", function($looks_array){
+add_filter("snillrik_dudes_format_look_add_option", function($looks_array){
     $looks_array[] = "photoframe";
     return $looks_array;
 },10,1);
 
 //add html to the new look here (or replace old one) with the info from the look info array.
-add_filter("format_look_html_out_photoframe", function($html_out,$look_info_array){
+add_filter("snillrik_dudes_format_look_html_out_photoframe", function($html_out,$look_info_array){
     extract($look_info_array);
     $rownum = $rownum ? $rownum : 4;
     $total_number_of_dudes = $total_number_of_dudes > $rownum ? $rownum : $total_number_of_dudes;
