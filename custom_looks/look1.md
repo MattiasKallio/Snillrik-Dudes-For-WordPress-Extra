@@ -4,13 +4,13 @@
 Things to add in like functions.php of your theme.
 ```
 //add your look to the Dudes generator dropdown. 
-add_filter("format_look_add_option", function($looks_array){
+add_filter("snillrik_dudes_format_look_add_option", function($looks_array){
     $looks_array[] = "circle3";
     return $looks_array;
 },10,1);
 
 //add html to the new look here (or replace old one) with the info from the look info array.
-add_filter("format_look_html_out_circle3", function($html_out,$look_info_array){
+add_filter("snillrik_dudes_format_look_html_out_circle3", function($html_out,$look_info_array){
     extract($look_info_array);
     $total_number_of_dudes = $total_number_of_dudes > 4 ? 4 : $total_number_of_dudes;
     $dudebox_boxes_class = $issingle ? "sndude-dude-box-single" : "sndude-dude-box$total_number_of_dudes";
