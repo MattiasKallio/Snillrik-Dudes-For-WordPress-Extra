@@ -17,7 +17,7 @@ add_filter("format_look_html_out_circle3", function($html_out,$look_info_array){
     $html_out .= "<div class='sndude-dude-box $dudebox_boxes_class' data-url='$permalink'>
         <div class='sndude-dude-box-image'>
             <div class='sndude-dude-box-image-inner $image_transition_css' style='background-image:url($thumb)'></div>
-            $jobtile
+            $jobtitle
         </div>";
     $html_out .= "<div class='sndude-dude-box-content'>";
     if ($showname)
