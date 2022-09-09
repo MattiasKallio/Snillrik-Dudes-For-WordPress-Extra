@@ -13,7 +13,7 @@ Put the CSS where CSS goes, so either a css file or in the customizer for the te
 
 #### As a folder in theme 
 Put a folder containg a php-file and a css file in your themes root folder ie my-theme/snillrik-dudes/custom-dude.
-there is an example under looks called another-look.
+there are examples under [custom-looks](https://github.com/MattiasKallio/Snillrik-Dudes-For-WordPress-Extra/tree/main/custom_looks).
 
 ### Template
 The template gos in a folder called snillrik-dudes and is called singel_dude.php
