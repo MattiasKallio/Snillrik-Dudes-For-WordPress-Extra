@@ -1,0 +1,105 @@
+.sndude-dude-wrap.sndude-dude-wrap-helakroppen {
+    gap: 20px;
+}
+
+.sndude-dude-wrap-helakroppen .sndude-dude-box-title {
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: #00904b;
+}
+.sndude-dude-wrap-helakroppen .sndude-dude-box-title a {
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: #00904b;
+}
+
+.sndude-dude-wrap-helakroppen .sndude-dude-box-jobtitle {
+    margin: 0;
+    color: #00904b;
+}
+
+.sndude-dude-wrap-helakroppen .sndude-dude-box {
+    display: flex;
+}
+
+.sndude-dude-wrap-helakroppen .sndude-dude-box.sndude-dude-box2 {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 1 calc(50% - 10px);
+    padding: 0;
+    margin: 0;
+    background: #dff1f3;
+}
+
+.sndude-dude-wrap-helakroppen .sndude-dude-box-jobtitle-inner {
+    padding: 0px;
+}
+
+.sndude-dude-wrap-helakroppen .sndude-dude-box-content,
+.sndude-dude-wrap-helakroppen .sndude-dude-box-image {
+    padding: 20px;
+    flex: 1;
+}
+.sndude-dude-wrap-helakroppen .sndude-dude-box-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sndude-dude-wrap-helakroppen .sndude-dude-box-image {
+    padding: 0px;
+}
+
+.sndude-dude-wrap-helakroppen .sndude-dude-box-jobtitle-inner {
+    color: #00904b;
+    background: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.sndude-dude-wrap-helakroppen .sndude-dude-box-contactbox {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.sndude-dude-wrap-helakroppen .sndude-dude-box-readmore {
+    text-align: left;
+    width: auto;
+    margin-top: 10px;
+}
+
+.sndude-dude-wrap-helakroppen .sndude-dude-box-readmore a{
+    background: #00904b;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.helakroppen-filter-dudes-alphabet {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+div.helakroppen-filter-dudes-letter {
+    background: #00904b;
+    color: white;
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+}
+
+div.helakroppen-filter-dudes-letter.active{
+    background: #005f2f;
+}
+
+
+@media (max-width: 768px) {
+    .helakroppen-dudepage .snillrik-dude-top {
+        flex-direction: column;
+    }
+    .snillrik-dude-imagecontainer {
+        height: 100%;
+        min-height: 480px;
+    }
+}

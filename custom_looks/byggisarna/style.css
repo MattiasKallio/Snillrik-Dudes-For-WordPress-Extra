@@ -1,6 +1,11 @@
-.sndude-dude-wrap-byggisarna .sndude-dude-box{
-    box-shadow: 1px 1px 3px #00000047;
+.sndude-dude-wrap.sndude-dude-wrap-byggisarna {
+    justify-content: flex-start;
+}
+
+.sndude-dude-wrap-byggisarna .sndude-dude-box {
+    box-shadow: 2px 2px 5px #00000047;
     padding: 0px;
+    margin-bottom: 20px;
 }
 
 .sndude-dude-wrap-byggisarna .sndude-dude-box-content {
@@ -8,5 +13,19 @@
 }
 
 .sndude-dude-wrap-byggisarna .sndude-dude-box-jobtitle-inner {
-    background-color:#2f9099;
+    color: #2f9099;
+    background: none;
+}
+
+.sndude-dude-wrap-byggisarna .sndude-dude-box-contactbox {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.byggisarna-filter-dudes {
+    margin-bottom: 20px;
+}
+
+#byggisarna-filter-dudes-lan {
+    width: auto;
 }
